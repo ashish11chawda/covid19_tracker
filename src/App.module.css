@@ -17,7 +17,7 @@ body{
     justify-content: center;
 }
 .image1{
-    width:inherit;
+    width:300px;
     height: auto;
     margin-top: 30px;
     
@@ -27,8 +27,11 @@ body{
     margin-top: 50px;
    
 }
-.paragraph{
-    margin: 30px;
+.paragraph1{
+    margin-top: 40px;
+}
+.paragraph a{
+    margin: 10px;
 }
 .heart{
     color:red;
