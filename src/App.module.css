@@ -1,0 +1,43 @@
+body{
+    background-image:url('./images/favicon.png');
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content:space-between ;
+    flex-direction: column;
+
+
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+.image1{
+    width:inherit;
+    height: auto;
+    margin-top: 30px;
+    
+}
+.image2{
+    width:300px;
+    margin-top: 50px;
+   
+}
+.paragraph{
+    margin: 30px;
+}
+.heart{
+    color:red;
+}
+@media (max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+    .image{
+        width:100%;
+    }
+}
