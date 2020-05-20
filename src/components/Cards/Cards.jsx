@@ -19,7 +19,9 @@ const Cards = ({data: {confirmed, recovered, deaths, lastUpdate}}) => {
                             <CountUp start={0} end={confirmed.value} duration={2.5} seperator=',' />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">number</Typography>
+                        <Typography variant="body2" component="p">
+                            Number of active cases of COVID-19.
+                        </Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card,styles.recovered)}>
@@ -29,7 +31,9 @@ const Cards = ({data: {confirmed, recovered, deaths, lastUpdate}}) => {
                             <CountUp start={0} end={recovered.value} duration={2.5} seperator=',' />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">number</Typography>
+                        <Typography variant="body2" component="p">
+                            Number of Recovered cases of COVID-19.
+                        </Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card,styles.deaths)}>
@@ -39,7 +43,9 @@ const Cards = ({data: {confirmed, recovered, deaths, lastUpdate}}) => {
                             <CountUp start={0} end={deaths.value} duration={2.5} seperator=',' />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">number</Typography>
+                        <Typography variant="body2" component="p">
+                            Number of Deaths due to COVID-19.
+                        </Typography>
                     </CardContent>
                 </Grid>
             </Grid>
