@@ -8,8 +8,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import { makeStyles } from '@material-ui/core/styles';
 import { grey } from '@material-ui/core/colors';
+
 class App extends React.Component{
   state = {
     data: {},
@@ -38,10 +38,10 @@ class App extends React.Component{
         <p className={styles.paragraph1}>Made with <span className={styles.heart}>&#10084;</span> by <span>&copy;</span> Ashish Chawda</p>
         
         <p className={styles.paragraph}>
-          <a href="https://www.linkedin.com/in/ashishchawda198/" target="_blank"><LinkedInIcon style={{color : grey[900]}}/></a>
-          <a href="https://github.com/pixan198/" target="_blank"><GitHubIcon style={{color : grey[900]}}/></a>
-          <a href="https://twitter.com/ashish11chawda/" target="_blank"><TwitterIcon style={{color : grey[900]}}/></a>
-          <a href="https://www.instagram.com/_tachyon._/" target="_blank"><InstagramIcon style={{color : grey[900]}}/></a>
+          <a href="https://www.linkedin.com/in/ashishchawda198/" target="_blank" rel="noopener noreferrer"><LinkedInIcon style={{color : grey[900]}}/></a>
+          <a href="https://github.com/pixan198/" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{color : grey[900]}}/></a>
+          <a href="https://twitter.com/ashish11chawda/" target="_blank" rel="noopener noreferrer"><TwitterIcon style={{color : grey[900]}}/></a>
+          <a href="https://www.instagram.com/_tachyon._/" target="_blank" rel="noopener noreferrer"><InstagramIcon style={{color : grey[900]}}/></a>
         </p>
       </div>
 
