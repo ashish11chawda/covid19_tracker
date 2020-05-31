@@ -35,7 +35,7 @@ class App extends React.Component{
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country}/>
-        <p className={styles.paragraph1}>Made with <span className={styles.heart}>&#10084;</span> by <span>&copy;</span> Ashish Chawda</p>
+        <p className={styles.paragraph1}><span>&copy;</span> 2020. Made with <span className={styles.heart}>&#10084;</span> by Ashish Chawda</p>
         
         <p className={styles.paragraph}>
           <a href="https://www.linkedin.com/in/ashishchawda198/" target="_blank" rel="noopener noreferrer"><LinkedInIcon style={{color : grey[900]}}/></a>
